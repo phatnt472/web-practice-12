@@ -1,0 +1,87 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+#main{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    word-spacing: 0.2rem;
+}
+
+.blue{
+    color: #286DF5;
+}
+
+.row{
+    display: flex;
+}
+
+#header h1{
+    text-align: center;
+    color: #FD0101;
+}
+
+.paragraph-1{
+    align-items: center;
+}
+
+.paragraph-1__image{
+    width: 60%;
+}
+
+.paragraph-1__image .map-image{
+    width: 18.3rem;
+    display:block;
+    margin-left:  4rem;
+}
+
+.paragraph-1__content{
+    margin-left:  4rem;
+}
+
+.paragraph-1__content p{
+    margin-left: 4rem;
+}
+
+.paragraph-2{
+    position:relative;
+}
+
+.paragraph-2__content{
+    display: inline-block;
+}
+
+.paragraph-2__image{
+    width: 22rem;
+    height: 22rem;
+    background-image: url(../images/VietNamInTheWorld.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    float: right;
+    margin-bottom:  1rem;;
+}
+
+.paragraph-3 p:first-child{
+    margin-top: 0.5rem;
+}
+
+#foorter {
+    text-align:  right;
+}
+
+.background{
+    position: fixed;
+    height: 20rem;
+    width: 40rem;
+    background-image: url(../images/co-vietnam.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Âm nhạc</title>
+    <style>
+        @font-face {
+            font-family: wedding;
+            src: url(./assets/fonts/UTM\ Wedding\ K&T.ttf);
+        }
+        html, body{
+            font-size: 62.5%;
+            font-family: wedding;
+            margin: 0;
+        }
+
+        main{
+            height: 100vh;
+            background-image: url(./assets/images/background.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 6rem;
+            color: #fff;
+            text-shadow: 0.2rem 0.1rem #000;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>This sunshine today is showing you a new chance to achieve your dream.<br>
+            Let&rsquo;s take the chance, work hard and follow your dream!</h1>
+        <div class="content">
+            <audio autoplay>
+                <source src="./assets/audio/HelloVietNam-QuynhAnh.mp3">
+            </audio>
+        </div>
+    </main>
+</body>
+</html>

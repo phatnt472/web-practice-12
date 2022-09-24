@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+
+#main{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    word-spacing: 0.3rem;
+}
+
+#header{
+    background-color: #FD01CD;
+    color: #fff;
+    padding: 0.1rem 1rem;
+    margin-bottom: 2rem;
+}
+
+#header h1{
+    margin: 0;
+}
+
+#content .first_letter{
+    float: left;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    z-index: 2;
+
+}
+
+#content .ben-thanh-img{
+    width: 100%;
+}
+
+.background{
+    position: fixed;
+    height: 20rem;
+    width: 40rem;
+    background-image: url(../images/co-vietnam.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 0.1;
+}
+
+#content{
+    column-count: 3;
+    column-rule-style: dashed;
+}
+
+#foorter {
+    text-align:  right;
+} 
